@@ -125,6 +125,21 @@ body {
         font-size: 18px;
         line-height: 26px;
     }
+
+    .cards {
+        position: relative;
+    }
+
+    .card {   
+        width: 265px;
+        height: 145px;
+    }
+
+    .el1_md {
+        position: absolute;
+        top: 170px;
+        left: 10px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -148,6 +163,11 @@ body {
 
     .line {
         width: 83px;
+    }
+
+    .card {   
+        width: 285px;
+        height: 125px;
     }
 
 
