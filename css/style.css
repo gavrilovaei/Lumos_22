@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+@font-face {
+    font-family: LatoBold;
+    src: url("../fonts/LatoBold/LatoBold.eot");
+    src: url("../fonts/LatoBold/LatoBold.woff") format("woff"),
+        url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GilroySemiBold";
+    src: url("../fonts/Gilroy/Gilroy-Semibold.eot");
+    src: url("../fonts/Gilroy/Gilroy-Semibold.woff") format("woff"),
+        url("../fonts/Gilroy/Gilroy-Semibold.woff2") format("woff2"),
+        url("../fonts/Gilroy/Gilroy-Semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "GilroyRegular";
+    src: url("../fonts/Gilroy/Gilroy-Regular.eot");
+    src: url("../fonts/Gilroy/Gilroy-Regular.woff") format("woff"),
+        url("../fonts/Gilroy/Gilroy-Regular.woff2") format("woff2"),
+        url("../fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    font-family: GilroyRegular, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.row,
+.w-100 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.text-bold {
+    font-family: GilroySemiBold, Arial, Helvetica, sans-serif;
+}
+
+.yellow {
+    color: #FAD264;
+}
+
+.text-logo {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.text-big {
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.container-fluid {
+    background-color: indigo;
+    background-image: url(../img/bg_md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo__img {
+    width: 52px;
+}
+
+.top .text-big {
+    margin-top: 2px;
+}
+
+.line {
+    width: 70px;
+}
+
+.info {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+
+@media (min-width: 768px) {
+
+    .text-big {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .logo__img {
+        margin-top: -2px;
+    }
+
+    .text-logo {
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .text-big {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+    .container-fluid {
+        background-image: url(../img/bg_lg.jpg);
+    }
+
+    .top .container:first-child {
+        margin-top: 2px;
+    }
+
+    .logo__img {
+        width: 68px;
+    }
+
+    .line {
+        width: 83px;
+    }
+
+
+}
