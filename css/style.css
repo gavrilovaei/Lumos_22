@@ -48,6 +48,10 @@ body {
     font-family: GilroySemiBold, Arial, Helvetica, sans-serif;
 }
 
+.text-yellow {
+    color: #FCE559;
+}
+
 .yellow {
     color: #FAD264;
 }
@@ -87,7 +91,7 @@ body {
     line-height: 28px;
 }
 
-.card {   
+.card {
     width: 320px;
     height: 118px;
     background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
@@ -100,13 +104,17 @@ body {
     width: 44px;
 }
 
+.text-calendar {
+    line-height: 22px;
+}
+
 @media (max-width: 767px) {
 
-   .card-text {
-    font-size: 16px;
-    line-height: 19px;
-    
-   }
+    .card-text {
+        font-size: 16px;
+        line-height: 19px;
+
+    }
 }
 
 
@@ -130,7 +138,7 @@ body {
         position: relative;
     }
 
-    .card {   
+    .card {
         width: 265px;
         height: 145px;
     }
@@ -139,6 +147,10 @@ body {
         position: absolute;
         top: 170px;
         left: 10px;
+    }
+
+    .calendar {
+        width: 27px;
     }
 }
 
@@ -150,7 +162,7 @@ body {
     }
 
     .container-fluid {
-        background-image: url(../img/bg_xl.jpg);
+        background-image: url(../img/bg_lg.jpg);
     }
 
     .top .container:first-child {
@@ -165,9 +177,20 @@ body {
         width: 83px;
     }
 
-    .card {   
+    .card {
         width: 289px;
         height: 125px;
+    }
+
+    .el1_md {
+        top: 187px;
+        left: -33px;
+        width: 122px;
+    }
+
+    .text-calendar {
+        font-size: 20px;
+        line-height: 24px;
     }
 
 
