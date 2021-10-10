@@ -144,6 +144,15 @@ small {
     font-size: 14px;
     line-height: 16px;
 }
+.top-bottom {
+    position: relative;
+}
+
+.top-bottom .element-2 {
+    position: absolute;
+    top: -81px;
+    right: -4px;
+}
 
 @media (max-width: 767px) {
 
@@ -194,6 +203,11 @@ small {
         max-width: 100%;
         width: 100%;
     }
+
+    .text-header-bottom {
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -204,7 +218,7 @@ small {
     }
 
     .container-fluid {
-        background-image: url(../img/bg_lg.jpg);
+        background-image: url(../img/bg_lg.jpg);       
     }
 
     .top .container:first-child {
@@ -220,7 +234,7 @@ small {
     }
 
     .card {
-        width: 289px;
+        width: 287px;
         height: 125px;
     }
 
