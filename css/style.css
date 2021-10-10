@@ -53,7 +53,7 @@ body {
 }
 
 .text-yellow span {
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 .yellow {
@@ -136,7 +136,8 @@ small {
 }
 
 .calendar-container {
-    max-width: 320px;    
+    max-width: 320px;
+    width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -183,6 +184,11 @@ small {
     .calendar {
         width: 27px;
     }
+
+    .calendar-container {
+        max-width: 100%;
+        width: 100%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -222,6 +228,11 @@ small {
     .text-calendar {
         font-size: 20px;
         line-height: 24px;
+    }
+
+    .form-control,
+    .btn-primary {
+        width: 254px;
     }
 
 
