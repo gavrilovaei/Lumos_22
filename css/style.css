@@ -52,6 +52,10 @@ body {
     color: #FCE559;
 }
 
+.text-yellow span {
+    color:#FFFFFF;
+}
+
 .yellow {
     color: #FAD264;
 }
@@ -129,6 +133,10 @@ body {
 small {
     font-size: 14px;
     line-height: 24px;
+}
+
+.calendar-container {
+    max-width: 320px;    
 }
 
 @media (max-width: 767px) {
