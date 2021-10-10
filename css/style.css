@@ -140,6 +140,11 @@ small {
     width: 100%;
 }
 
+.text-header-bottom {
+    font-size: 14px;
+    line-height: 16px;
+}
+
 @media (max-width: 767px) {
 
     .card-text {
