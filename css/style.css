@@ -46,6 +46,14 @@ body {
 
 .text-bold {
     font-family: GilroySemiBold, Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+.text-lato {
+    font-family: LatoBold, serif;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 .text-yellow {
@@ -144,6 +152,7 @@ small {
     font-size: 14px;
     line-height: 16px;
 }
+
 .top-bottom {
     position: relative;
 }
@@ -153,6 +162,52 @@ small {
     top: -81px;
     right: -4px;
 }
+
+.main h2 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #320B61;
+}
+
+.main-line {
+    padding-top: 2px;
+    /* margin-bottom: 20px; */
+}
+
+.bg-yellow {
+    background-color: #FAD264;
+    max-width: 284px;
+}
+
+.bg-violet {
+    background-color: #320B61;
+    /* border-left: 6.5px solid #FAD264; */
+}
+
+.color-violet {
+    color: #320B61;
+}
+
+.day .bg-violet {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.day .item {
+    background-image:url(../img/listStyleImg_1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.day h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;    
+}
+
+
+
 
 @media (max-width: 767px) {
 
@@ -218,7 +273,7 @@ small {
     }
 
     .container-fluid {
-        background-image: url(../img/bg_lg.jpg);       
+        background-image: url(../img/bg_lg.jpg);
     }
 
     .top .container:first-child {
