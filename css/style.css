@@ -79,7 +79,7 @@ body {
 }
 
 .container-fluid {
-    background-color: indigo;
+    background-color: #42196D;
     background-image: url(../img/bg_md.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,7 +98,7 @@ body {
     width: 70px;
 }
 
-.info {
+.info-top {
     font-size: 24px;
     line-height: 28px;
 }
@@ -166,12 +166,11 @@ small {
 .main h2 {
     font-size: 36px;
     line-height: 44px;
-    color: #320B61;
+
 }
 
 .main-line {
-    padding-top: 2px;
-    /* margin-bottom: 20px; */
+    padding-top: 2px;    
 }
 
 .bg-yellow {
@@ -184,8 +183,12 @@ small {
     /* border-left: 6.5px solid #FAD264; */
 }
 
-.color-violet {
+.text-violet {
     color: #320B61;
+}
+
+main .info .container-fluid {
+    background-image: none;
 }
 
 .day .bg-violet {
@@ -194,8 +197,13 @@ small {
     line-height: 24px;
 }
 
+.day .shadow {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
 .day .item {
-    background-image:url(../img/listStyleImg_1.png);
+    background-image: url(../img/listStyleImg_1.png);
     background-repeat: no-repeat;
     background-position: top left;
 }
@@ -203,14 +211,40 @@ small {
 .day h3 {
     font-weight: bold;
     font-size: 18px;
-    line-height: 22px;    
+    line-height: 22px;
 }
 
-  .day ul {
+.day ul {
     list-style-image: url(../img/Ellipse.png);
-   }
+}
 
-  
+.card-info {
+    width: 349px;
+    min-height: 440px;
+    border-radius: 40px;
+}
+
+.card-title-info {
+    font-size: 18px;
+    line-height: 22px;
+    color: #292841;
+}
+
+.skills {
+    list-style: none;
+}
+
+.skills li {
+
+    background-image: url(../img/listStyleImg_2.png);
+    background-repeat: no-repeat;
+    background-position: left 8px;
+}
+
+
+
+
+
 
 
 
