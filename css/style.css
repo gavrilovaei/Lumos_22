@@ -1,354 +1,367 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-
 @font-face {
-    font-family: LatoBold;
-    src: url("../fonts/LatoBold/LatoBold.eot");
-    src: url("../fonts/LatoBold/LatoBold.woff") format("woff"),
-        url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+	font-family: LatoBold;
+	src: url("../fonts/LatoBold/LatoBold.eot");
+	src: url("../fonts/LatoBold/LatoBold.woff") format("woff"), url("../fonts/LatoBold/LatoBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
 
 @font-face {
-    font-family: "GilroySemiBold";
-    src: url("../fonts/Gilroy/Gilroy-Semibold.eot");
-    src: url("../fonts/Gilroy/Gilroy-Semibold.woff") format("woff"),
-        url("../fonts/Gilroy/Gilroy-Semibold.woff2") format("woff2"),
-        url("../fonts/Gilroy/Gilroy-Semibold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+	font-family: "GilroySemiBold";
+	src: url("../fonts/Gilroy/Gilroy-Semibold.eot");
+	src: url("../fonts/Gilroy/Gilroy-Semibold.woff") format("woff"), url("../fonts/Gilroy/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/Gilroy/Gilroy-Semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
 }
 
 @font-face {
-    font-family: "GilroyRegular";
-    src: url("../fonts/Gilroy/Gilroy-Regular.eot");
-    src: url("../fonts/Gilroy/Gilroy-Regular.woff") format("woff"),
-        url("../fonts/Gilroy/Gilroy-Regular.woff2") format("woff2"),
-        url("../fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: 400;
+	font-family: "GilroyRegular";
+	src: url("../fonts/Gilroy/Gilroy-Regular.eot");
+	src: url("../fonts/Gilroy/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy/Gilroy-Regular.woff2") format("woff2"), url("../fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 400;
 }
 
 body {
-    font-family: GilroyRegular, Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 21px;
-    color: #000000;
+	font-family: GilroyRegular, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
 }
 
-.row,
-.w-100 {
-    margin-left: 0;
-    margin-right: 0;
+.row, .w-100 {
+	margin-left: 0;
+	margin-right: 0;
 }
 
 .text-bold {
-    font-family: GilroySemiBold, Arial, Helvetica, sans-serif;
-    font-weight: 900;
+	font-family: GilroySemiBold, Arial, Helvetica, sans-serif;
+	font-weight: 900;
 }
 
 .text-lato {
-    font-family: LatoBold, serif;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 24px;
+	font-family: LatoBold, serif;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 24px;
 }
 
 .text-yellow {
-    color: #FCE559;
+	color: #FCE559;
 }
 
 .text-yellow span {
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
 
+/* усиление, т.к. класс text-white внутри text-yellow не срабатывает */
+
 .yellow {
-    color: #FAD264;
+	color: #FAD264;
 }
 
 .text-logo {
-    font-size: 14px;
-    line-height: 16px;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 .text-big {
-    font-size: 30px;
-    line-height: 36px;
+	font-size: 30px;
+	line-height: 36px;
 }
 
-.top .container-fluid {    
-    background-image: url(../img/bg_md.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.top .container-fluid {
+	background-image: url(../img/bg_md.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 .logo__img {
-    width: 52px;
+	width: 52px;
 }
 
 .top .text-big {
-    margin-top: 2px;
+	margin-top: 2px;
 }
 
 .line {
-    width: 70px;
+	width: 70px;
 }
 
 .info-top {
-    font-size: 24px;
-    line-height: 28px;
+	font-size: 24px;
+	line-height: 28px;
 }
 
 .card {
-    width: 320px;
-    height: 118px;
-    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    margin-bottom: 1px;
+	width: 320px;
+	height: 118px;
+	background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	margin-bottom: 1px;
 }
 
 .card-img-top {
-    width: 44px;
+	width: 44px;
 }
 
 .text-calendar {
-    line-height: 22px;
+	line-height: 22px;
 }
 
-.form-control,
-.btn-primary {
-    width: 270px;
-    height: 56px;
-    background: #FFFFFF;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    align-items: center;
-    text-align: center;
-    font-size: 18px;
-    line-height: 21px;
+.form-control, .btn-primary {
+	width: 270px;
+	height: 56px;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+	border-radius: 30px;
+	align-items: center;
+	text-align: center;
+	font-size: 18px;
+	line-height: 21px;
 }
 
 .btn-primary {
-    background: linear-gradient(75.93deg, #FAD264 44.82%, #FCE558 70.67%);
-    color: #000000;
+	background: linear-gradient(75.93deg, #FAD264 44.82%, #FCE558 70.67%);
+	color: #000000;
 }
 
 small {
-    font-size: 14px;
-    line-height: 24px;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .calendar-container {
-    max-width: 320px;
-    width: 100%;
+	max-width: 320px;
+	width: 100%;
 }
 
 .text-header-bottom {
-    font-size: 14px;
-    line-height: 16px;
+	font-size: 14px;
+	line-height: 16px;
 }
 
 .top-bottom {
-    position: relative;
+	position: relative;
 }
 
 .top-bottom .element-2 {
-    position: absolute;
-    top: -81px;
-    right: -4px;
+	position: absolute;
+	top: -81px;
+	right: -4px;
 }
 
 .main h2 {
-    font-size: 36px;
-    line-height: 44px;
-
+	font-size: 36px;
+	line-height: 44px;
 }
 
 .main-line {
-    padding-top: 2px;    
+	padding-top: 2px;
 }
 
 .bg-yellow {
-    background-color: #FAD264;
-    max-width: 284px;
+	background-color: #FAD264;
+	max-width: 284px;
 }
 
 .bg-violet {
-    background-color: #320B61;
-    /* border-left: 6.5px solid #FAD264; */
+	background-color: #320B61;
+	/* border-left: 6.5px solid #FAD264; */
+}
+
+.bg-indigo {
+	background-color: #42196D;
 }
 
 .text-violet {
-    color: #320B61;
+	color: #320B61;
 }
 
 main .info .container-fluid {
-    background-image: none;
+	background-image: none;
 }
 
 .day .bg-violet {
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 24px;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 24px;
 }
 
 .day .shadow {
-    background: #FFFFFF;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	background: #FFFFFF;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .day .item {
-    background-image: url(../img/listStyleImg_1.png);
-    background-repeat: no-repeat;
-    background-position: top left;
+	background-image: url(../img/listStyleImg_1.png);
+	background-repeat: no-repeat;
+	background-position: top left;
 }
 
 .day h3 {
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 22px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 22px;
 }
 
 .day ul {
-    list-style-image: url(../img/Ellipse.png);
+	list-style-image: url(../img/Ellipse.png);
 }
 
 .card-info {
-    width: 349px;
-    min-height: 440px;
-    border-radius: 40px;
+	width: 349px;
+	min-height: 440px;
+	border-radius: 40px;
 }
 
 .card-title-info {
-    font-size: 18px;
-    line-height: 22px;
-    color: #292841;
+	font-size: 18px;
+	line-height: 22px;
+	color: #292841;
 }
 
 .skills {
-    list-style: none;
+	list-style: none;
 }
 
 .skills li {
-
-    background-image: url(../img/listStyleImg_2.png);
-    background-repeat: no-repeat;
-    background-position: left 8px;
+	background-image: url(../img/listStyleImg_2.png);
+	background-repeat: no-repeat;
+	background-position: left 8px;
 }
 
 .bg-light-gray {
-    background-color: #F6F6F6;
+	background-color: #F6F6F6;
 }
 
+.with-el_4 {
+	position: relative;
+}
 
+.el_4 {
+	position: absolute;
+	top: -7px;
+	right: 97px;
+}
 
+.with-el_4 p {
+	font-size: 36px;
+	line-height: 42px;
+	color: rgba(0, 0, 0, 0.8);
+}
 
+.Stages {
+	position: relative;
+	width: 1110px;
+}
 
+.stage_4, .stage_5 {
+	position: absolute;
+}
+
+.stage_4 {
+	top: 44px;
+	right: 280px;
+}
+
+.stage_5 {
+	top: 44px;
+	right: 65px;
+}
+
+.Mulish {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+	color: #060606;
+}
+
+.Mulish strong {
+	font-weight: bold;
+}
 
 
 @media (max-width: 767px) {
-
-    .card-text {
-        font-size: 16px;
-        line-height: 19px;
-
-    }
+	.card-text {
+		font-size: 16px;
+		line-height: 19px;
+	}
 }
 
-
 @media (min-width: 768px) {
-
-    .text-big {
-        font-size: 36px;
-        line-height: 44px;
-    }
-
-    .logo__img {
-        margin-top: -2px;
-    }
-
-    .text-logo {
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .cards {
-        position: relative;
-    }
-
-    .card {
-        width: 265px;
-        height: 145px;
-    }
-
-    .el1_md {
-        position: absolute;
-        top: 170px;
-        left: 10px;
-    }
-
-    .calendar {
-        width: 27px;
-    }
-
-    .calendar-container {
-        max-width: 100%;
-        width: 100%;
-    }
-
-    .text-header-bottom {
-        font-size: 16px;
-        line-height: 19px;
-    }
+	.text-big {
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.logo__img {
+		margin-top: -2px;
+	}
+	.text-logo {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.cards {
+		position: relative;
+	}
+	.card {
+		width: 265px;
+		height: 145px;
+	}
+	.el1_md {
+		position: absolute;
+		top: 170px;
+		left: 10px;
+	}
+	.calendar {
+		width: 27px;
+	}
+	.calendar-container {
+		max-width: 100%;
+		width: 100%;
+	}
+	.text-header-bottom {
+		font-size: 16px;
+		line-height: 19px;
+	}
 }
 
 @media (min-width: 1200px) {
-
-    .text-big {
-        font-size: 50px;
-        line-height: 60px;
-    }
-
-    .top .container-fluid {
-        background-image: url(../img/bg_lg.jpg);
-    }
-
-    .top .container:first-child {
-        margin-top: 2px;
-    }
-
-    .logo__img {
-        width: 68px;
-    }
-
-    .line {
-        width: 83px;
-    }
-
-    .card {
-        width: 287px;
-        height: 125px;
-    }
-
-    .el1_md {
-        top: 187px;
-        left: -33px;
-        width: 122px;
-    }
-
-    .text-calendar {
-        font-size: 20px;
-        line-height: 24px;
-    }
-
-    .form-control,
-    .btn-primary {
-        width: 254px;
-    }
-
-
+	.text-big {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.top .container-fluid {
+		background-image: url(../img/bg_lg.jpg);
+	}
+	.top .container:first-child {
+		margin-top: 2px;
+	}
+	.logo__img {
+		width: 68px;
+	}
+	.line {
+		width: 83px;
+	}
+	.card {
+		width: 287px;
+		height: 125px;
+	}
+	.el1_md {
+		top: 187px;
+		left: -33px;
+		width: 122px;
+	}
+	.text-calendar {
+		font-size: 20px;
+		line-height: 24px;
+	}
+	.form-control, .btn-primary {
+		width: 254px;
+	}
 }
