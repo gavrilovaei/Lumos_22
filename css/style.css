@@ -78,8 +78,7 @@ body {
     line-height: 36px;
 }
 
-.container-fluid {
-    background-color: #42196D;
+.top .container-fluid {    
     background-image: url(../img/bg_md.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -241,7 +240,9 @@ main .info .container-fluid {
     background-position: left 8px;
 }
 
-
+.bg-light-gray {
+    background-color: #F6F6F6;
+}
 
 
 
@@ -312,7 +313,7 @@ main .info .container-fluid {
         line-height: 60px;
     }
 
-    .container-fluid {
+    .top .container-fluid {
         background-image: url(../img/bg_lg.jpg);
     }
 
