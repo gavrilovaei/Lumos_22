@@ -108,7 +108,8 @@ body {
 	line-height: 22px;
 }
 
-.form-control, .btn-primary {
+.form-control, .btn-primary,
+.form-control, .btn-primary:hover {
 	width: 270px;
 	height: 56px;
 	background: #FFFFFF;
@@ -120,7 +121,8 @@ body {
 	line-height: 21px;
 }
 
-.btn-primary {
+.btn-primary,
+.btn-primary:hover {
 	background: linear-gradient(75.93deg, #FAD264 44.82%, #FCE558 70.67%);
 	color: #000000;
 }
@@ -290,7 +292,8 @@ strong {
 	color: rgba(0, 0, 0, 0.8);
 }
 
-.practicum .btn-primary {
+.practicum .btn-primary,
+.practicum .btn-primary:hover {
 	width: 350px;
 	height: 56px;
 }
@@ -394,6 +397,11 @@ footer .lato-bold {
 	font-family: 'LatoBold', sans-serif;
 }
 
+footer a {
+	text-decoration: none;
+	color: inherit;
+}
+
 @media (max-width: 767px) {
 	.card-text {
 		font-size: 16px;
@@ -468,7 +476,8 @@ footer .lato-bold {
 		font-size: 20px;
 		line-height: 24px;
 	}
-	.form-control, .btn-primary {
+	.form-control, .btn-primary,
+	.form-control, .btn-primary:hover {
 		width: 254px;
 	}
 }
