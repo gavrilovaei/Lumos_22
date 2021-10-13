@@ -91,7 +91,7 @@ body {
 	width: 70px;
 }
 
-.info-top {
+.font-24_28 {
 	font-size: 24px;
 	line-height: 28px;
 }
@@ -286,11 +286,6 @@ strong {
 	font-weight: bold;
 }
 
-.practicum h2 {
-	font-size: 36px;
-	line-height: 44px;
-}
-
 .practicum .heading {
 	font-size: 24px;
 	line-height: 29px;
@@ -304,6 +299,25 @@ strong {
 .practicum .btn-primary {
 	width: 350px;
 	height: 56px;
+}
+
+.author h2 {
+	line-height: 28px;
+}
+
+.name{
+	color: rgba(0, 0, 0, 0.8);
+}
+
+.autor__heading {
+	position: relative;
+}
+
+.autor__heading img {
+	position: absolute;
+	width: 157px;
+	top: 0;
+	right: 125px;
 }
 
 @media (max-width: 767px) {
