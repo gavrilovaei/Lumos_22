@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 @font-face {
 	font-family: LatoBold;
 	src: url("../fonts/LatoBold/LatoBold.eot");
@@ -42,7 +43,7 @@ body {
 }
 
 .text-lato {
-	font-family: LatoBold, serif;
+	font-family: 'LatoBold', sans-serif;
 	font-weight: 900;
 	font-size: 20px;
 	line-height: 24px;
@@ -358,6 +359,11 @@ strong {
 	line-height: 24px;
 }
 
+.font-16_19 {
+	font-size: 16px;
+	line-height: 19px;
+}
+
 .border-form {
 	border: 2px solid #FFFFFF;
 	border-radius: 15px;
@@ -379,6 +385,20 @@ strong {
 .form-bottom .small {
 	font-size: 14px;
 	line-height: 130%;
+}
+
+footer .containter-fluid {
+	background: linear-gradient(0deg, #320C5A, #320C5A);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #F4F9FF;
+}
+
+footer .lato-bold {
+	font-family: 'LatoBold', sans-serif;
 }
 
 @media (max-width: 767px) {
