@@ -53,12 +53,6 @@ body {
 	color: #FCE559;
 }
 
-.text-yellow span {
-	color: #FFFFFF;
-}
-
-/* усиление, т.к. класс text-white внутри text-yellow не срабатывает */
-
 .yellow {
 	color: #FAD264;
 }
@@ -171,8 +165,7 @@ small {
 }
 
 .bg-violet {
-	background-color: #320B61;
-	/* border-left: 6.5px solid #FAD264; */
+	background-color: #320B61;	 
 }
 
 .bg-indigo {
