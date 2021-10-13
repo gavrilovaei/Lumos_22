@@ -315,9 +315,21 @@ strong {
 
 .autor__heading img {
 	position: absolute;
-	width: 157px;
+	width: 160px;
 	top: 0;
-	right: 125px;
+	right: 95px;
+}
+
+.author ul {
+	list-style: none;
+}
+
+.author li {
+	height: 38.5px;
+	background-image: url(../img/listStyleImg_3.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: auto;
 }
 
 @media (max-width: 767px) {
