@@ -365,7 +365,9 @@ strong {
 	border-radius: 15px;
 }
 
-.form-bottom input, .form-bottom button {
+.form-bottom input,
+.form-bottom button,
+.form-bottom button:hover {
 	width: 294px;
 	height: 66px;
 	border-radius: 30px;
@@ -373,7 +375,8 @@ strong {
 	line-height: 20px;
 }
 
-.form-bottom button {
+.form-bottom button,
+.form-bottom button:hover {
 	background: #F7C847;
 	box-shadow: 0px 10px 40px rgba(255, 223, 135, 0.5);
 }
