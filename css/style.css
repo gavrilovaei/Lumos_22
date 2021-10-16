@@ -125,7 +125,11 @@ body {
 .btn-primary,
 .btn-primary:hover {
 	background: linear-gradient(75.93deg, #FAD264 44.82%, #FCE558 70.67%);
-	color: #000000;
+	color: #000000;	
+}
+
+.btn-primary a:hover {
+	text-decoration: none;
 }
 
 small {
