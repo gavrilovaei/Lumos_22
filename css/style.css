@@ -300,7 +300,11 @@ strong {
 .practicum .btn-primary,
 .practicum .btn-primary:hover {
 	width: 350px;
-	height: 56px;
+	height: 56px;	
+}
+
+.practicum .btn-primary:hover a {
+	text-decoration: none;
 }
 
 .author h2 {
